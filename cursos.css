@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: #000000;
+height: 100vh;
+}
+
+h2.titulo{
+color:#fff;
+font-size: 38px;
+text-align: center;
+}
+
+h2.titulo span{
+color:#8c52ff;
+}
+
+section.cursos{
+padding:40px 4%
+}
+
+section.cursos .flex {
+  display: flex;
+  gap: 20px; 
+  justify-content: space-between; 
+  }
+  
+  .cursos h2{
+  color: #fff;
+  font-size: 38px;
+  line-height: 40px;
+  }
+
+  .cursos h2 span{
+  color: #8c52ff;
+  }
+
+  .cursos .interface p{
+  color: #fff;
+  margin: 40px 0;
+  }
+
+  .cursos-box button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #8c52ff;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+  button:hover{
+  box-shadow: 0px 0px 8px #8c52ff;
+  transform: scale(1.05);
+}
+
+  .cursos .cursos-box {
+  flex: 3; 
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+  }
+  
+  .cursos .cursos-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #ffffff78;
+  }
+
+.cursos .cursos-box i{
+  font-size: 70px;
+  color: #8c52ff;
+  }
+
+.cursos .cursos-box h3{
+  font-size:28px;
+  margin: 15px 0;
+}
+
+ .cursos .cursos-box button.botao {
+  background-color: #8c52ff; 
+  color: #000000; 
+  border: none; 
+  padding: 20px 60px; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: .2s;
+}
+
+.cursos .cursos-box button.botao:hover {
+  background-color: #8c52ff; 
+}
+
+footer {
+  background-color: #000;
+  color: #686565;
+  text-align: center;
+  padding: 10px 0;
+}
